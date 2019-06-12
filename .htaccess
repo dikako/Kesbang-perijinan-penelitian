@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteCond %{REQUEST_URI} ^/system.*
+RewriteRule ^(.*)$ index.php?/$1 [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)$ index.php?/$1 [L]
+php_value upload_max_filesize 128M
+php_value post_max_size 128M
+php_value max_input_time 3600
+php_value max_execution_time 3600

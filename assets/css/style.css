@@ -1,0 +1,62 @@
+.navbar{
+    min-height: 0;
+}
+.nav li a:hover{
+    background: linear-gradient(#fcfcfc, #f9f9f9, #f0f0f0);
+}
+.navbir{
+}
+.navbar-inverse{
+    border: 0 solid transparent;
+}
+@media (max-width: 768px) {
+    .navbir img{
+        margin: 0 auto;
+    }
+    .navbir{
+        padding: 5px;
+    }
+}
+@media (min-width: 768px) {
+    .navbir{
+        padding: 5px;
+    }
+}
+@media (max-width: 768px) {
+    .penelitian{
+        width: 10%;
+    }
+
+    .penelitian td{
+        font-size: 8pt;
+    }
+    .penelitian th{
+        font-size: 8pt;
+    }
+    .dataTables_filter{
+        text-align: left;
+        font-size: 11pt;
+    }
+    .dataTables_filter .form-control{
+        width: 70%;
+    }
+}
+@media (min-width: 768px) {
+    .pagination{
+        float: right;
+    }
+    .dataTables_filter{
+        float: right;
+    }
+    .penelitian th{
+        font-size: 10pt;
+    }
+    .penelitian td{
+        font-size: 9pt;
+    }
+}
+.ukuran{
+    font-size: 16pt;
+}
+#page-wrapper{
+}
